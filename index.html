@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="vendor/js/popper.min.js" async></script>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
+    <script src="vendor/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  </head>
+  <body>
+  
+    <article>
+      <p>Собираем проект:</p>
+      <pre>$ bem make</pre>
+      <p>Первая сборка с <code>bem-tools</code> займет некоторое время, так как именно в этот момент в директорию проекта устанавливаются все
+         необходимые npm-пакеты.</p>
+      <p>Для запуска сервера выполняем:</p>
+      <pre>$ bem server</pre>
+      <p>В результате вы увидете следующее сообщение:</p>
+      <pre class="overflow">info: Server is listening on port <span class="blue">8080</span>. Point your browser to http:<span class="italic">//localhost:8080/</span></pre>
+      <p>Проблема?</p>
+      <p>Если порт 8080 уже используется другой программой, его можно переназначить с помощью аргумента <code>-p</code>.</p>
+    </article>
+</body>
+
